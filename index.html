@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<!-- Step 1) Load D3.js -->
+<script src="https://d3js.org/d3.v5.min.js"></script>
+
+<!-- Step 2) Load billboard.js with style -->
+<script src="files/billboard.js"></script>
+
+<!-- Load with base style -->
+<link rel="stylesheet" href="files/billboard.css">
+
+<!-- Or load different theme style -->
+<link rel="stylesheet" href="files/insight.css">
+    <title>Strona dla poprawy humoru</title>
+  </head>
+  <body>
+    <nav class="bg-da navbar navbar-expand-lg navbar-dark  newNav">
+        <a class="navbar-brand text-center" href="#">GENERATOR KOTÓW i FAJNYCH PYTANEK</a>
+      
+
+      </nav>
+<div class="container-fluid all">
+
+
+        <div class="container quizDiv">
+            <div class="row">
+                <div class="col"><img src="quiz.png" class="img-fluid cats" alt="Responsive image"></div>
+                <div class="col"><p class="quizText">
+                    Wydawało Ci się kiedyś, że jesteś zdolną osobą? Nigdy nie miałeś/aś problemów z rozwiązywaniem zagadek? Spróbuj naszego quizu!
+                </p>
+                <label class="labelt" for="exampleFormControlSelect1">Kategoria</label>
+                <select class="form-control" id="category">
+                <option value="21">Sport</option>
+                <option value="22">Geografia</option>
+                <option value="23">Historia</option>
+                <option value="27">Zwierzęta</option>
+                </select><br>
+                <label class="labelt" for="exampleFormControlSelect1">Poziom trudności</label>
+                <select class="form-control" id="lvl">
+                <option value="easy">Łatwy</option>
+                <option value="hard">Trudny</option>
+                </select>
+                <button type="submit" onclick="startQuiz()" class="btn btn-primary submitek">Zacznij QUIZ</button>
+            
+            </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <div id="questions"></div>
+            <div id="finish"></div>
+            <div id="chart"></div>
+        </div>
+    </div>
+</div>
+
+<div class="container charty">
+    <div class="row">
+        <div class="col">
+            <p class="white">Losowy wykres</p>
+            <div id="chart2"></div>
+        </div>
+    </div>
+</div>
+    <div class="container-fluid catsDiv">
+        <div class="row">
+            <div class="col catsDiv2">
+            <p class="catsText">Na sam koniec mamy dla Ciebie coś co poprawi Ci humor :)</p>
+            <input type="number" id="catsCount" class="numberInput form-control" placeholder="Podaj liczbe od 1 do 10">
+            <button type="submit" onclick="findCats()" class="btn btn-primary submitek">Szukaj</button>
+            <div id="cats"></div>
+        </div>
+        </div>
+    </div>
+    <div class="container-flud footer">
+        <div class="row">
+            <div class="col footerek">
+
+                Źródła:<br>https://naver.github.io/billboard.js/ <br>
+                https://apilist.fun/api/numbers<br>
+            </div>
+           
+
+        </div>
+    </div>
+    </div>
+    </div>
+    <script src="app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>

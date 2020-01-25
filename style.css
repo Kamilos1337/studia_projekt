@@ -1,0 +1,97 @@
+.all{
+    background-color: #383e4e;
+   
+}
+.bg-da{
+    text-align: center !important;
+    margin: 0 auto !important;
+    display: block !important;
+    background-color:#262a35 !important;
+
+    
+}
+.cats{
+    max-height: 400px !important;
+    height: 300px !important;
+    margin:10px;
+}
+.footerek{
+    text-align: center;
+    color:white;
+
+}
+.footer{
+    background-color:#262a35 !important;
+    margin:0px;
+    display:block;
+    width:100% !important;
+    padding:20px;
+}
+.quizDiv{
+    padding-top:100px;
+}
+.quizText{
+    color:white;
+}
+.quizTEXT{
+    color: white;
+    text-decoration: underline;
+    font-weight: bold;
+    margin-top:30px;
+}
+.form-check{
+ color:white;   
+}
+.labelt{
+    color:white !important;
+}
+.catsDiv{
+    margin:0 auto !important;
+    display:block !important;
+    text-align: center !important;
+}
+.catsDiv2{
+    margin-top:20px;
+}
+.btn-primary{
+    border:1px solid #eee !important;
+}
+.catsText{
+    background-color:#262a35!important;
+    color:White;
+    padding:10px;
+    width:max-content;
+    text-align: center;
+    border-radius:5px;
+    margin:0 auto;
+    display:block;
+}
+.correct{
+    background-color:green !important;
+}
+.wrong{
+    background-color:red !important;
+}
+.numberInput{
+    margin-top:10px;
+    border:1px solid #262a35!important;
+}
+.submitek{
+    margin-top:10px;
+    background-color:#262a35!important;
+    margin-bottom:20px;
+}
+#catsCount{
+    width:300px;
+    margin:0 auto;
+    text-align: center;
+    display:block;
+    margin-top:20px
+}
+.charty{
+    margin-top:100px;
+    margin-bottom:100px;
+}
+.white{
+    color:white;
+}
